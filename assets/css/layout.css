@@ -17,7 +17,7 @@
 /* Formatação comum entre os elementos. */
 header, nav, main, footer {
 	/* Cor do fundo. */
-	background: red;
+	
 
 	/* Exibição flexível.                          */
 	/* Torna o elemento um flex container          */
@@ -243,5 +243,14 @@ a {
 	footer {
 		/* Ordem da visualização dos elementos. */
 		order: 4;
+	}
+
+	.logo img{
+		width: 50px;
+		
+	}
+
+	.logo{
+		width: 100px;
 	}
 }

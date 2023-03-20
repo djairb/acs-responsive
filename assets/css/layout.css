@@ -15,9 +15,9 @@
 
 
 /* Formatação comum entre os elementos. */
-header, nav, main, aside, footer {
+header, nav, main, footer {
 	/* Cor do fundo. */
-	background: #a1a1a1;
+	background: red;
 
 	/* Exibição flexível.                          */
 	/* Torna o elemento um flex container          */
@@ -28,9 +28,21 @@ header, nav, main, aside, footer {
 	margin: 0;
 }
 
+header, main, footer{
+
+	width: 100%;
+    min-width: 320px;
+    max-width: 1920px;
+    margin: 0 auto;
+
+
+
+}
 /* Seletores para formatação individual. */
 
 header {
+
+	
 	/* Altura do elemento. */
 	height: 100px;
 
@@ -43,6 +55,7 @@ header {
 
 .logo img{
 	width: 80px;
+	
 }
 
 .logo{
@@ -52,7 +65,7 @@ header {
 	align-items: center;
 
 	background-color: #fff;
-	width: 100px;
+	width: 150px;
 }
 
 

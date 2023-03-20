@@ -12,24 +12,7 @@
 	box-sizing: border-box;
 }
 
-body {
-	/* Exibição flexível.                          */
-	/* Torna o elemento um flex container          */
-	/* e os seus elementos internos em flex-itens. */
-	display: flex;
 
-	/* Quebra de linha quando os itens não couberem na largura da tela. */
-	flex-wrap: wrap;
-
-	/* Junção de flex-grow, flex-shrink e flex-basis.  */
-	/* flex-grow – Habilidade de um flex item crescer. */
-	/* flex-shrink - Capacidade de redução do item.    */
-	/* flex-basis – Tamanho inicial do item.           */
-	flex: 1 1 100vw;
-
-	/* Margem de todos os lados. */
-	margin: 3px;
-}
 
 /* Formatação comum entre os elementos. */
 header, nav, main, aside, footer {
@@ -42,7 +25,7 @@ header, nav, main, aside, footer {
 	display: flex;
 
 	/* Margem externa de todos os lados. */
-	margin: 3px;
+	margin: 0;
 }
 
 /* Seletores para formatação individual. */
@@ -58,51 +41,23 @@ header {
 	flex: 1 1 100vw;
 }
 
-header #logo {
-	/* Exibição flexível.                          */
-	/* Torna o elemento um flex container          */
-	/* e os seus elementos internos em flex-itens. */
+.logo img{
+	width: 80px;
+}
+
+.logo{
+
 	display: flex;
-
-	/* Junção de flex-grow, flex-shrink e flex-basis.  */
-	/* flex-grow – Habilidade de um flex item crescer. */
-	/* flex-shrink - Capacidade de redução do item.    */
-	/* flex-basis – Tamanho inicial do item.           */
-	flex: 0 1 200px;
-
-	/* Cor do fundo. */
-	background: #c9c9c9;
-
-	/* Alinha os itens na vertical. */
 	justify-content: center;
-
-	/* Alinha os itens na horizontal. */
 	align-items: center;
+
+	background-color: #fff;
+	width: 100px;
 }
 
-#openMenu, #closeMenu {
-	/* Remove a borda. */
-	border: none;
 
-	/* Remove a cor de fundo. */
-	background: none;
 
-	/* Tamanho da fonte. */
-	font-size: 30px;
 
-	/* Espessura da forte. */
-	font-weight: bold;
-
-	/* Margem ao redor do elemento              */
-	/* (superior, direito, inferior e esquerdo) */
-	padding: 0px 5px 0px 5px;
-
-	/* Muda o cursor do mouse para ponteiro.*/
-	cursor: pointer;
-
-	/* Oculta o elemento. */
-	display: none;
-}
 
 nav {
 	/* Alinha os itens na vertical. */
@@ -139,14 +94,29 @@ main {
 	flex: 20 1 500px;
 }
 
-aside {
-	/* Junção de flex-grow, flex-shrink e flex-basis.  */
-	/* flex-grow – Habilidade de um flex item crescer. */
-	/* flex-shrink - Capacidade de redução do item.    */
-	/* flex-basis – Tamanho inicial do item.           */
-	flex: 1 1 200px;
-}
+#openMenu, #closeMenu {
+	/* Remove a borda. */
+	border: none;
 
+	/* Remove a cor de fundo. */
+	background: none;
+
+	/* Tamanho da fonte. */
+	font-size: 30px;
+
+	/* Espessura da forte. */
+	font-weight: bold;
+
+	/* Margem ao redor do elemento              */
+	/* (superior, direito, inferior e esquerdo) */
+	padding: 0px 5px 0px 5px;
+
+	/* Muda o cursor do mouse para ponteiro.*/
+	cursor: pointer;
+
+	/* Oculta o elemento. */
+	display: none;
+}
 footer {
 	/* Altura do elemento. */
 	height: 100px;

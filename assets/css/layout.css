@@ -27,22 +27,22 @@ body {
 	/* flex-basis – Tamanho inicial do item.           */
 	flex: 1 1 100vw;
 
-	/* Margem de todos os lados. */
-	margin: 3px;
+	/* Margem de todos os lados. margin: 3px; */
+	
 }
 
 /* Formatação comum entre os elementos. */
 header, nav, main, aside, footer {
-	/* Cor do fundo. */
-	background: #a1a1a1;
+	/* Cor do fundo. background: #a1a1a1; */
+	
 
 	/* Exibição flexível.                          */
 	/* Torna o elemento um flex container          */
 	/* e os seus elementos internos em flex-itens. */
 	display: flex;
 
-	/* Margem externa de todos os lados. */
-	margin: 3px;
+	/* Margem externa de todos os lados. margin: 3px; */
+	
 }
 
 /* Seletores para formatação individual. */
@@ -50,12 +50,30 @@ header, nav, main, aside, footer {
 header {
 	/* Altura do elemento. */
 	height: 100px;
+	
 
 	/* Junção de flex-grow, flex-shrink e flex-basis.  */
 	/* flex-grow – Habilidade de um flex item crescer. */
 	/* flex-shrink - Capacidade de redução do item.    */
 	/* flex-basis – Tamanho inicial do item.           */
 	flex: 1 1 100vw;
+
+	/* background           */
+	background-image: url("/assets/img/header-bg.jpg");
+    background-position: center;
+    background-size: 100% 100%;
+	
+
+}
+
+main{
+
+	background-image: url("/assets/img/main01--bg.jpg");
+    background-position: center;
+    background-size: 100% 100%;
+
+
+
 }
 
 header #logo {
@@ -70,8 +88,8 @@ header #logo {
 	/* flex-basis – Tamanho inicial do item.           */
 	flex: 0 1 200px;
 
-	/* Cor do fundo. */
-	background: #c9c9c9;
+	/* Cor do fundo. background: #c9c9c9; */
+	
 
 	/* Alinha os itens na vertical. */
 	justify-content: center;
@@ -194,6 +212,8 @@ a {
 	header {
 		/* Ordem da visualização dos elementos. */
 		order: 0;
+
+		background-size: cover;
 	}
 
 	nav {
@@ -247,6 +267,7 @@ a {
 		/* da altura dos elementos ( 300px ) com as suas margens ( 30px ). */
 		/*height: calc(100vh - 330px);*/
 		height: 100vh;
+		background-size: cover;
 	}
 
 	aside {

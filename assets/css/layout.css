@@ -179,6 +179,7 @@ main {
 
 }
 
+
 .container01, .container02{
     width: 100%;
     height: 300px;
@@ -186,39 +187,65 @@ main {
     
 }
 
-.container01{
-    background-color: brown;
-    color: #fff;
+.container01, .divTexto{
+    
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    text-align: center;
-    
+    text-align: center; 
     
 }
 
-.container01 h1, p{
-    margin: 0;
+.container01 h1, p, .divTexto h1, p{
+	padding: 9px;  
     
 
     
+}
+
+.divTexto{
+
+	height: 200px;
+
+
+}
+
+.container01{
+	background-color: brown;
+    color: #fff;
+
+
+
+
+
+}
+
+
+.container01 p{
+
+	width: 80%;
+
+
+}
+
+.divTexto p{
+
+	width: 80%;
+
+
 }
 
 .container02{
     background-color: blue;
 }
 
-/* flex-basis – Tamanho inicial do item.       
-
-
-
-*/
 
 
 footer {
 	/* Altura do elemento. */
-	height: 100px;
+	height: 80px;
+	background-color: darkgray;
 
 	/* Junção de flex-grow, flex-shrink e flex-basis.  */
 	/* flex-grow – Habilidade de um flex item crescer. */

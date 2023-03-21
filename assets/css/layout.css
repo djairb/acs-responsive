@@ -227,14 +227,14 @@ main {
 
 .container01 p{
 
-	width: 80%;
+	width: 100%;
 
 
 }
 
 .divTexto p{
 
-	width: 80%;
+	width: 90%;
 
 
 }
@@ -374,13 +374,13 @@ a {
 
 	.divTexto{
 
-	height: 300px;
+	height: 350px;
 
 	}
 
 	.divTexto p{
 
-		width: 80%;
+		width: 100%;
 	
 	
 	}

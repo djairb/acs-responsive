@@ -198,7 +198,7 @@ main {
 }
 
 .container01 h1, p, .divTexto h1, p{
-	padding: 9px;  
+	margin: 5px;  
     
 
     
@@ -367,6 +367,13 @@ a {
 	.container{
 		
 		flex-direction: column;
+	}
+
+	.divTexto{
+
+		height: 300px;
+	
+	
 	}
 
 	

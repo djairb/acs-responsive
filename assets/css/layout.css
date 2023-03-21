@@ -12,6 +12,14 @@
 	box-sizing: border-box;
 }
 
+body{
+
+	font-family: "Montserrat", sans-serif;
+
+
+
+}
+
 /*comecou
 */
 
@@ -148,6 +156,7 @@ nav a {
 
 	
 	font-size: 15pt;
+	font-weight: bold;
 }
 
 main {
@@ -198,16 +207,31 @@ main {
 }
 
 .container01 h1, p, .divTexto h1, p{
+
 	padding: 5px;
-	margin: 3px auto;
-    
+	   
 
     
 }
 
+.container p, .divTexto p{
+
+	line-height: 25px;
+
+
+}
+
+.container h1, .divTexto h1{
+
+	font-weight: bold;
+	
+
+
+}
+
 .divTexto{
 
-	height: 200px;
+	height: 250px;
 
 
 }
@@ -216,11 +240,8 @@ main {
 
 .container01{
 	background-color: brown;
+
     color: #fff;
-
-
-
-
 
 }
 
@@ -229,14 +250,11 @@ main {
 
 	width: 100%;
 
-
 }
 
 .divTexto p{
 
 	width: 90%;
-
-
 }
 
 .container02{
@@ -374,13 +392,20 @@ a {
 
 	.divTexto{
 
-	height: 350px;
+	height: 300px;
 
 	}
 
 	.divTexto p{
 
 		width: 100%;
+	
+	
+	}
+
+	.container p, .divTexto p{
+
+		line-height: 20px;
 	
 	
 	}

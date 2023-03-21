@@ -15,25 +15,7 @@
 /*comecou
 */
 
-.slider {
-	display: flex;
-	overflow: hidden;
-	width: 100%;
-	height: 400px;
-	z-index: 0;
-  }
-  
-  .slide {
-	flex-shrink: 0;
-	width: 100%;
-	transition: transform 1s ease-in-out;
-  }
-  
-  .slider img {
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
-  }
+
   
   
 

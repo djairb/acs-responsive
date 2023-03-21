@@ -52,7 +52,24 @@ closeMenu.addEventListener('click', () => {
 });
 
 
+$('.slider').slick({
 
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 1000,
+}
+
+
+);
+
+
+
+
+
+
+
+/*
 
 
 var slideIndex = 0;
@@ -70,17 +87,8 @@ function showSlides() {
 showSlides();
 
 
-/*
-$('.slider').slick({
-
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 1000,
-}
 
 
-);
 */
 
 

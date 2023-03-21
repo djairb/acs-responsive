@@ -236,6 +236,7 @@ main {
 	background-color: brown;
 
     color: #fff;
+	
 
 }
 
@@ -386,9 +387,12 @@ a {
 
 	.divTexto{
 
-	height: 300px;
-
+		height: 300px;
+	
+	
 	}
+	
+
 
 	
 	.container p, .divTexto p{

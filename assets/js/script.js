@@ -1,3 +1,7 @@
+
+
+
+
 /* Ação de eventos sobre o botão menu da tag nav (mobile). */
 /* Parâmetros: Nome do evento, função. */
 openMenu.addEventListener('click', () => {
@@ -24,7 +28,7 @@ openMenu.addEventListener('click', () => {
 		/* Oculta o botão que torna visível o elemento nav.*/
 		openMenu.style.display = 'none'
 	}, 10);
-})
+});
 
 /* Ação de eventos sobre o botão X da tag nav (mobile). */
 /* Parâmetros: Nome do evento, função. */
@@ -45,9 +49,28 @@ closeMenu.addEventListener('click', () => {
 		menu.removeAttribute('style')
 		openMenu.removeAttribute('style')
 	}, 200);
-})
+});
 
 
+
+
+
+var slideIndex = 0;
+var slides = document.getElementsByClassName("slide");
+
+function showSlides() {
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  for (var i = 0; i < slides.length; i++) {
+    slides[i].style.transform = "translateX(" + (-(slideIndex-1)*100) + "%)";
+  }
+  setTimeout(showSlides, 5000); // Troca de imagem a cada 5 segundos
+}
+
+showSlides();
+
+
+/*
 $('.slider').slick({
 
     slidesToShow: 1,
@@ -58,3 +81,6 @@ $('.slider').slick({
 
 
 );
+*/
+
+

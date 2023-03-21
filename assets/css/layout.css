@@ -12,6 +12,58 @@
 	box-sizing: border-box;
 }
 
+/*comecou
+*/
+
+.slider {
+	display: flex;
+	overflow: hidden;
+	width: 100%;
+	height: 400px;
+	z-index: 0;
+  }
+  
+  .slide {
+	flex-shrink: 0;
+	width: 100%;
+	transition: transform 1s ease-in-out;
+  }
+  
+  .slider img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+  }
+  
+  
+
+
+#openMenu, #closeMenu {
+
+	
+	/* Remove a borda. */
+	border: none;
+
+	/* Remove a cor de fundo. */
+	background: none;
+
+	/* Tamanho da fonte. */
+	font-size: 30px;
+
+	/* Espessura da forte. */
+	font-weight: bold;
+
+	/* Margem ao redor do elemento              */
+	/* (superior, direito, inferior e esquerdo) */
+	padding: 0px 5px 0px 5px;
+
+	/* Muda o cursor do mouse para ponteiro.*/
+	cursor: pointer;
+
+	/* Oculta o elemento. */
+	display: none;
+}
+
 
 
 /* Formatação comum entre os elementos. */
@@ -68,6 +120,11 @@ header {
 	width: 150px;
 }
 
+.slider{
+    width: 500px;
+    
+}
+
 
 
 
@@ -107,29 +164,7 @@ main {
 	flex: 20 1 500px;
 }
 
-#openMenu, #closeMenu {
-	/* Remove a borda. */
-	border: none;
 
-	/* Remove a cor de fundo. */
-	background: none;
-
-	/* Tamanho da fonte. */
-	font-size: 30px;
-
-	/* Espessura da forte. */
-	font-weight: bold;
-
-	/* Margem ao redor do elemento              */
-	/* (superior, direito, inferior e esquerdo) */
-	padding: 0px 5px 0px 5px;
-
-	/* Muda o cursor do mouse para ponteiro.*/
-	cursor: pointer;
-
-	/* Oculta o elemento. */
-	display: none;
-}
 footer {
 	/* Altura do elemento. */
 	height: 100px;
@@ -215,6 +250,8 @@ a {
 
 		/* Velocidade de transição de um estado para outro. */
 		transition: 0.3s;
+
+		z-index: 1;
 	}
 
 	nav a {
@@ -232,17 +269,11 @@ a {
 		height: 100vh;
 	}
 
-	aside {
-		/* Ordem da visualização dos elementos. */
-		order: 3;
-
-		/* Altura do elemento. */
-		height: 100px;
-	}
+	
 
 	footer {
 		/* Ordem da visualização dos elementos. */
-		order: 4;
+		order: 3;
 	}
 
 	.logo img{

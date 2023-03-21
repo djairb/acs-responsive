@@ -121,6 +121,7 @@ header {
 	
 	overflow: hidden;
   }
+
 .slideshow img {
 	position: absolute;
 	top: 0;
@@ -132,7 +133,7 @@ header {
   }
 .slideshow img.active {
 	opacity: 1;
-  }
+}
 
 
 
@@ -200,19 +201,14 @@ main {
     
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
+	align-content: center;
     align-items: center;
     text-align: center; 
     
 }
 
-.container01 h1, p, .divTexto h1, p{
 
-	padding: 5px;
-	   
-
-    
-}
 
 .container p, .divTexto p{
 
@@ -396,19 +392,16 @@ a {
 
 	}
 
-	.divTexto p{
-
-		width: 100%;
 	
-	
-	}
-
 	.container p, .divTexto p{
 
 		line-height: 20px;
+		width: 95%;
 	
 	
 	}
+
+	
 	
 
 

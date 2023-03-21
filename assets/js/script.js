@@ -54,17 +54,19 @@ closeMenu.addEventListener('click', () => {
 
 
 
-
 var slideIndex = 0;
-var slides = document.getElementsByClassName("slide");
+var slides = document.querySelectorAll('.slideshow img');
 
 function showSlides() {
   slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}
-  for (var i = 0; i < slides.length; i++) {
-    slides[i].style.transform = "translateX(" + (-(slideIndex-1)*100) + "%)";
+  if (slideIndex >= slides.length) {
+    slideIndex = 0;
   }
-  setTimeout(showSlides, 5000); // Troca de imagem a cada 5 segundos
+  for (var i = 0; i < slides.length; i++) {
+    slides[i].classList.remove('active');
+  }
+  slides[slideIndex].classList.add('active');
+  setTimeout(showSlides, 5000);
 }
 
 showSlides();

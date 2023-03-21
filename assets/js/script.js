@@ -57,6 +57,8 @@ $('.slider').slick({
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
+	arrows: false, // Desativa as setas de navegação
+    dots: false, // Ativa os pontos de navegação
     autoplaySpeed: 1000,
 }
 

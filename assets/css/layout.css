@@ -136,10 +136,6 @@ header {
 }
 
 
-
-
-
-
 nav {
 	
 	justify-content: flex-end;
@@ -177,9 +173,11 @@ main {
 
 
 .container{
+
     display: flex;
     flex-direction: row;
     justify-content: center;
+	align-content: center;
     align-items: center;
     text-align: center;
     width: 100%;    
@@ -244,7 +242,7 @@ main {
 
 .container01 p{
 
-	width: 100%;
+	width: 90%;
 
 }
 

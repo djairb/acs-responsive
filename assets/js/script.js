@@ -85,4 +85,17 @@ $('.slider').slick({
 );
 */
 
+function zoomIn(img) {
+	img.style.transform = "scale(1.2)";
+	img.style.transformOrigin = "0 0";
+	img.style.transition = "transform 0.3s";
+}
+
+function zoomOut(img) {
+	img.style.transform = "scale(1)";
+	img.style.transformOrigin = "0 0";
+	img.style.transition = "transform 0.5s";
+}
+  
+  
 

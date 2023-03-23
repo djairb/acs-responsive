@@ -311,6 +311,53 @@ a {
     
 }
 
+.quemsomosimg{
+
+	background-image: url("/assets/img/principal/01.jpg");
+    background-position: center;
+    background-size: cover;
+
+
+}
+
+.vamosimboraimg{
+
+	background-image: url("/assets/img/principal/02.jpg");
+    background-position: center;
+    background-size: cover;
+
+
+}
+
+.oportunizarurbano{
+
+	background-image: url("/assets/img/principal/03.jpg");
+    background-position: center;
+    background-size: cover;
+
+
+}
+
+
+.oportunizarrural{
+
+	background-image: url("/assets/img/principal/04.jpg");
+    background-position: center;
+    background-size: cover;
+
+
+}
+
+.formacaoacs{
+
+	background-image: url("/assets/img/principal/05.jpg");
+    background-position: center;
+    background-size: cover;
+
+
+}
+
+
 .container01, .divTexto{
     
     display: flex;

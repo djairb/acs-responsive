@@ -249,12 +249,27 @@ a {
 
 }
 
-.divTexto{
+.divTexto h1{
 
-	height: 200px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+
+	
 
 
 }
+
+.divTexto p{
+
+	
+	margin-bottom: 20px;
+	width: 90%;
+
+	
+
+
+}
+
 
 
 
@@ -273,10 +288,6 @@ a {
 
 }
 
-.divTexto p{
-
-	width: 90%;
-}
 
 .container02{
     background-color: blue;
@@ -450,12 +461,7 @@ a {
 		flex-direction: column;
 	}
 
-	.divTexto{
-
-		height: 300px;
 	
-	
-	}
 	
 
 

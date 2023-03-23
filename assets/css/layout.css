@@ -209,8 +209,6 @@ a {
 
 	margin-top: 15px;
 
-
-
 }
 
 
@@ -347,6 +345,9 @@ a {
 	margin-top: 20px;
 	margin-bottom: 10px;
 
+	border-bottom: 1px solid black; /* largura e estilo da linha */
+	padding-bottom: 5px;
+
 	
 
 
@@ -371,6 +372,14 @@ a {
 
     color: #fff;
 	
+
+}
+
+.container01 h1{
+
+	border-bottom: 2px solid white; /* largura e estilo da linha */
+	padding-bottom: 15px;
+
 
 }
 
@@ -412,6 +421,9 @@ a {
 	margin-top: 20px;
 	margin-bottom: 20px;
 
+	border-bottom: 1px solid black; /* largura e estilo da linha */
+	padding-bottom: 5px;
+
 
 }
 
@@ -436,9 +448,6 @@ a {
 	align-items: center;
 
 	gap: 20px;
-
-	
-	
 	
 
 }
@@ -446,6 +455,50 @@ a {
 .container-imagens-parceiros img{
 	width: 90px;
 }
+
+.container-contatos{
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	
+
+
+
+}
+
+.container-contatos h1{
+	margin-top: 15px;
+	margin-bottom: 15px;
+
+	border-bottom: 1px solid black; /* largura e estilo da linha */
+	padding-bottom: 5px; /* espaço entre o texto e a linha */
+
+	
+	
+	
+	  
+
+	
+
+}
+
+.container-contatos div{
+	margin-top: 15px;
+	margin-bottom: 15px;
+
+}
+
+.container-contatos div{
+	text-align: center;
+
+
+}
+
+
+
+
 
 /* Altera o estilo dos elementos para serem apresentados */ 
 /* em telas menores que 717px. */

@@ -281,13 +281,7 @@ a {
 
 	border: 1px solid #c52727;
 
-
-
 }
-
-
-
-
 
 .container{
 
@@ -462,6 +456,7 @@ a {
 	flex-direction: column;
 	justify-content: space-around;
 	align-items: center;
+	width: 100%;
 	
 
 
@@ -469,29 +464,28 @@ a {
 }
 
 .container-contatos h1{
-	margin-top: 15px;
-	margin-bottom: 15px;
+	margin-top: 20px;
+	margin-bottom: 30px;
 
 	border-bottom: 1px solid black; /* largura e estilo da linha */
 	padding-bottom: 5px; /* espaço entre o texto e a linha */
-
-	
-	
-	
-	  
-
 	
 
 }
 
 .container-contatos div{
-	margin-top: 15px;
-	margin-bottom: 15px;
+	margin-top: 20px;
+	margin-bottom: 20px;
 
 }
 
 .container-contatos div{
 	text-align: center;
+	font-weight: bold;
+	line-height: 20px;
+	width: 80%;
+	
+
 
 
 }
@@ -627,6 +621,9 @@ a {
 	.card{
 		flex-basis: 100%;
 	}
+
+
+	
 
 	
 	

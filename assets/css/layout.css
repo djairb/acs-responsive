@@ -435,6 +435,7 @@ a {
 
 	border-bottom: 2px solid white; /* largura e estilo da linha */
 	padding-bottom: 15px;
+	width: 95%;
 
 
 }
@@ -706,7 +707,7 @@ footer p{
 	
 	.container01 h1{
 
-		margin-top: 10px;
+		padding-top: 10px;
 		
 		
 	
@@ -715,10 +716,16 @@ footer p{
 
 	.container01 p{
 
+		padding-top: 10px;
+
 		margin-bottom: 10px;
 
 
 
+	}
+
+	.container01{
+		height: auto;
 	}
 
 	.slideshow {

@@ -303,6 +303,18 @@ a {
 
 }
 
+.container img{
+
+	width: 100%;
+    height: 400px;
+	object-fit: cover;
+
+
+
+
+
+}
+
 
 .container01, .container02{
     width: 100%;
@@ -313,7 +325,7 @@ a {
 
 .quemsomosimg{
 
-	background-image: url("/assets/img/principal/01.jpg");
+	background-image: url("./assets/img/principal/01.jpg");
     background-position: center;
     background-size: cover;
 
@@ -322,7 +334,7 @@ a {
 
 .vamosimboraimg{
 
-	background-image: url("/assets/img/principal/02.jpg");
+	background-image: url("./assets/img/principal/02.jpg");
     background-position: center;
     background-size: cover;
 
@@ -331,7 +343,7 @@ a {
 
 .oportunizarurbano{
 
-	background-image: url("/assets/img/principal/03.jpg");
+	background-image: url("./assets/img/principal/03.jpg");
     background-position: center;
     background-size: cover;
 
@@ -341,7 +353,7 @@ a {
 
 .oportunizarrural{
 
-	background-image: url("/assets/img/principal/04.jpg");
+	background-image: url("./assets/img/principal/04.jpg");
     background-position: center;
     background-size: cover;
 
@@ -350,7 +362,7 @@ a {
 
 .formacaoacs{
 
-	background-image: url("/assets/img/principal/05.jpg");
+	background-image: url("./assets/img/principal/05.jpg");
     background-position: center;
     background-size: cover;
 

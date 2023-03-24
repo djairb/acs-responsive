@@ -381,6 +381,16 @@ a {
     
 }
 
+.divTexto img{
+	width: 200px;
+	height: 200px;
+	border-radius: 100px;
+	padding-bottom: 10px;
+	padding-top: 07px;
+
+
+}
+
 
 
 .container p, .divTexto p{

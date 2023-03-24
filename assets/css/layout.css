@@ -138,7 +138,7 @@ main {
 footer {
 	/* Altura do elemento. */
 	height: 80px;
-	background-color: #012f7f;
+	background-color: #a62639;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
@@ -174,6 +174,25 @@ a {
 
 	background-color: #fff;
 	width: 150px;
+}
+
+nav a:hover{
+
+	color: #a62639;
+
+	padding-bottom: 10px;
+
+	border-bottom: 2px solid #2d898c;
+
+
+
+}
+
+nav a{
+
+	color: #2d898c;
+
+
 }
 
 
@@ -228,7 +247,7 @@ a {
 }
 
 .card{
-	border: 1px solid rgb(166, 0, 0);
+	border: 1.5px solid #a62639;
 	border-radius: 10px;
 	margin: 15px;
 
@@ -272,7 +291,7 @@ a {
 
 	width: 110px;    
     text-align: center;
-    background-color: #c52727;
+    background-color: #a62639;
     color: white;
     padding: 12px;
 	border-radius: 10px;
@@ -281,10 +300,10 @@ a {
 .card a:hover{
 
 	background-color: white;
-    color: #c52727;
+    color: #2d898c;
 	font-weight: bold;
 
-	border: 1px solid #c52727;
+	border: 1px solid #2d898c;
 
 }
 
@@ -413,7 +432,7 @@ a {
 	margin-top: 20px;
 	margin-bottom: 10px;
 
-	border-bottom: 1px solid black; /* largura e estilo da linha */
+	border-bottom: 2px solid #2d898c; /* largura e estilo da linha */
 	padding-bottom: 5px;
 
 	
@@ -434,7 +453,7 @@ a {
 
 
 .container01{
-	background-color: brown;
+	background-color: #a62639;
 
     color: #fff;
 	
@@ -443,7 +462,7 @@ a {
 
 .container01 h1{
 
-	border-bottom: 2px solid white; /* largura e estilo da linha */
+	border-bottom: 2px solid #2d898c; /* largura e estilo da linha */
 	padding-bottom: 15px;
 	width: 95%;
 
@@ -459,7 +478,7 @@ a {
 
 .container-parceiro{
 
-	background-color: orange;
+	background-color: #2d898c;
 	width: 100%;
 	
 
@@ -482,8 +501,9 @@ a {
 .container-parceiro h1{
 	margin-top: 20px;
 	margin-bottom: 20px;
+	color: #fff;
 
-	border-bottom: 1px solid black; /* largura e estilo da linha */
+	border-bottom: 2px solid white; /* largura e estilo da linha */
 	padding-bottom: 5px;
 
 
@@ -535,7 +555,7 @@ a {
 	margin-top: 20px;
 	margin-bottom: 30px;
 
-	border-bottom: 1px solid black; /* largura e estilo da linha */
+	border-bottom: 2px solid #2d898c; /* largura e estilo da linha */
 	padding-bottom: 5px; /* espaço entre o texto e a linha */
 	
 

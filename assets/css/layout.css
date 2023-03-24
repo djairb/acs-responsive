@@ -185,7 +185,7 @@ a {
 	height: 450px;
 	
 	overflow: hidden;
-  }
+}
 
 .slideshow img {
 	position: absolute;
@@ -707,6 +707,14 @@ footer p{
 
 
 
+	}
+
+	.slideshow {
+
+		
+		height: 270px;
+		
+		
 	}
 
 

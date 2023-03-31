@@ -112,10 +112,10 @@ nav {
 
 nav a {
 	/* Margem de todos os lados. */
-	margin: 0 2%;
+	margin: 0 1%;
 
 	
-	font-size: 15pt;
+	font-size: 14pt;
 	font-weight: bold;
 }
 
@@ -190,7 +190,7 @@ nav a:hover{
 
 nav a{
 
-	color: #2d898c;
+	color: #11114e;
 
 
 }
@@ -231,8 +231,10 @@ nav a{
 
 .container-noticias h1{
 
+	color: #11114e;
+
 	margin-top: 15px;
-	border-bottom: 2px solid #2d898c; /* largura e estilo da linha */
+	border-bottom: 2px solid #a62639; /* largura e estilo da linha */
 	padding-bottom: 15px;
 
 }
@@ -404,12 +406,15 @@ nav a{
 
 .missao h1{
 	margin: 15px auto;
-	border-bottom: 2px solid #2d898c; /* largura e estilo da linha */
+	border-bottom: 2px solid #11114e; /* largura e estilo da linha */
 	padding-bottom: 5px;
+	color: #11114e;
 
 }
 
 .missao p{
+
+	color: #11114e;
 	
 	width: 90vw;
 
@@ -492,12 +497,24 @@ nav a{
 
 .doacoes p{
 
-	font-size: 20px;
+	font-size: 30px;
 
 	font-weight: bolder;
 	text-align: center;
 	line-height: 35px;
 	
+}
+
+.h1doacao{
+
+	text-align: center;
+	margin: 20px auto;
+	margin-top: 25px;
+
+	border-bottom: 2px solid #11114e; /* largura e estilo da linha */
+	padding-bottom: 5px;
+
+
 }
 
 .doacoes img{
@@ -523,7 +540,7 @@ nav a{
 
 .container01 h1{
 
-	border-bottom: 2px solid #2d898c; /* largura e estilo da linha */
+	border-bottom: 2px solid white; /* largura e estilo da linha */
 	padding-bottom: 15px;
 	width: 95%;
 	margin-top: 10px;
@@ -535,6 +552,13 @@ nav a{
 .container01 p{
 
 	width: 90%;
+
+}
+
+
+.quemsomos{
+
+	background-color: #2d898c
 
 }
 
@@ -616,8 +640,9 @@ nav a{
 .container-contatos h1{
 	margin-top: 20px;
 	margin-bottom: 30px;
+	color: #11114e;
 
-	border-bottom: 2px solid #2d898c; /* largura e estilo da linha */
+	border-bottom: 2px solid #11114e; /* largura e estilo da linha */
 	padding-bottom: 5px; /* espaço entre o texto e a linha */
 	
 
@@ -870,6 +895,7 @@ footer p{
 
 	.doacoes p{
 		text-align: center;
+		font-size: medium;
 	}
 
 	.imgdoacao img.img{

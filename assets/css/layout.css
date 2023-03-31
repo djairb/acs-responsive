@@ -452,7 +452,7 @@ nav a{
 .divTexto img{
 	width: 200px;
 	height: 200px;
-	border-radius: 100px;
+	border-radius: 50%;
 	margin: 25px auto;
 
 

@@ -232,6 +232,8 @@ nav a{
 .container-noticias h1{
 
 	margin-top: 15px;
+	border-bottom: 2px solid #2d898c; /* largura e estilo da linha */
+	padding-bottom: 15px;
 
 }
 
@@ -389,7 +391,7 @@ nav a{
 }
 
 
-.container01, .divTexto{
+.container01, .missao{
     
     display: flex;
     flex-direction: column;
@@ -400,57 +402,77 @@ nav a{
     
 }
 
-.divTexto img{
-	width: 200px;
-	height: 200px;
-	border-radius: 100px;
-	padding-bottom: 10px;
-	padding-top: 07px;
+.missao h1{
+	margin: 15px auto;
+	border-bottom: 2px solid #2d898c; /* largura e estilo da linha */
+	padding-bottom: 5px;
+
+}
+
+.missao p{
+	margin-bottom: 20px;
+	width: 90vw;
+
+}
+
+
+.divTexto{
+
+	width: 80vw;    
+    display: flex;
+    
+	justify-content: center;
+	align-content: center;
+    align-items: center;
+	gap: 40px;
+	margin: 0 auto;
+     
+    
+}
+
+.invertido{
+	flex-direction: row-reverse;
+}
+
+
+
+.divTexto p{
+
+	width: 70%;
+	font-weight: 500;
+    font-style: italic;
+	
+	
+	
 
 
 }
 
 
+.divTexto img{
+	width: 200px;
+	height: 200px;
+	border-radius: 100px;
+	margin: 25px auto;
 
-.container p, .divTexto p{
+
+}
+
+
+.container p, .divTexto p, .missao p{
 
 	line-height: 25px;
 
 
 }
 
-.container h1, .divTexto h1{
+.container h1{
 
 	font-weight: bold;
 	
 
 
 }
-
-.divTexto h1{
-
-	margin-top: 20px;
-	margin-bottom: 10px;
-
-	border-bottom: 2px solid #2d898c; /* largura e estilo da linha */
-	padding-bottom: 5px;
-
-	
-
-
-}
-
-.divTexto p{
-
-	
-	margin-bottom: 20px;
-	width: 90%;
-
-
-}
-
-
-
 
 .container01{
 	background-color: #a62639;
@@ -722,6 +744,7 @@ footer p{
 
 		line-height: 20px;
 		width: 95%;
+		text-align: center;
 	
 	
 	}
@@ -749,6 +772,8 @@ footer p{
 		padding-top: 10px;
 
 		margin-bottom: 10px;
+		text-align: justify;
+		width: 90%;
 
 
 
@@ -765,6 +790,35 @@ footer p{
 		
 		
 	}
+
+	.divTexto{
+
+		width: 90vw;    
+		display: flex;
+		flex-direction: column;		
+		justify-content: center;
+		align-content: center;
+		align-items: center;
+		gap: 0px;	 
+		
+	}
+	.divTexto p{
+
+		
+		margin-bottom: 15px;	 
+		
+	}
+	.divTexto img{
+		width: 180px;
+		height: 180px;
+
+		
+			 
+		
+	}
+
+	
+	
 
 
 	

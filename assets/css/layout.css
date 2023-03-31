@@ -482,6 +482,45 @@ nav a{
 
 }
 
+.doacoes{
+	background-color: #fff;
+
+    color: black;
+	
+
+}
+
+.doacoes p{
+
+	font-size: 20px;
+
+	font-weight: bolder;
+	text-align: center;
+	line-height: 35px;
+	
+}
+
+.doacoes img{
+
+	width: 100px;
+	height: auto;
+}
+
+.doacoes{
+
+	height: 500px;
+}
+
+.imgdoacao img.img{
+
+	height: 500px;
+	width: 50%;
+
+
+}
+
+
+
 .container01 h1{
 
 	border-bottom: 2px solid #2d898c; /* largura e estilo da linha */
@@ -809,6 +848,42 @@ footer p{
 		
 			 
 		
+	}
+
+	.doacoes{
+
+
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		text-align: center;
+		margin: 0 auto;		
+	
+	
+	}
+
+	.doacoes img{
+
+		padding-top: 10px;
+
+	}
+
+	.doacoes p{
+		text-align: center;
+	}
+
+	.imgdoacao img.img{
+
+		height: 300px;
+		width: 100%;
+	
+	
+	}
+
+	.imgdoacao{
+		flex-direction: column-reverse;
+
+
 	}
 
 	

@@ -422,14 +422,10 @@ nav a{
 
 .missao{
 
-	background-image: url('/assets/img/bg/noticias.jpg');
-	background-size: cover;
+	background-image: url('/assets/img/bg/agrupaDivTexto.jpg');
+	background-size: contain;
 	background-position: center;
-	background-repeat: repeat;
-
-
-
-
+	background-repeat: no-repeat;
 }
 
 .missao h1{
@@ -448,6 +444,21 @@ nav a{
 
 }
 
+.agrupaDivTexto{
+	
+
+	background-image: url('/assets/img/bg/agrupaDivTexto.jpg');
+	background-size: contain;
+	background-position: center;
+	background-repeat: repeat;
+	
+
+
+	height: 250px;
+	display: flex;
+	justify-content: center;
+}
+
 
 .divTexto{
 
@@ -459,12 +470,6 @@ nav a{
     align-items: center;
 	gap: 40px;
 	margin: 0 auto;
-
-
-	background-image: url('/assets/img/bg/noticias.jpg');
-	background-size: cover;
-	background-position: center;
-	background-repeat: repeat;
      
     
 }
@@ -480,10 +485,6 @@ nav a{
 	width: 70%;
 	font-weight: 500;
     font-style: italic;
-	
-	
-	
-
 
 }
 
@@ -665,6 +666,11 @@ nav a{
 	justify-content: space-around;
 	align-items: center;
 	width: 100%;
+
+	background-image: url('/assets/img/bg/noticias.jpg');
+	background-size: contain;
+	background-position: center;
+	background-repeat: repeat;	
 	
 
 

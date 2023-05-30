@@ -308,6 +308,7 @@ nav a{
 	height: 180px;
 	object-fit: cover;
 	border-radius: 10px;
+	
 
 
 }
@@ -323,6 +324,7 @@ nav a{
 .card div p{
 
 	margin-top: 10px;
+	text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
 
 	
 }

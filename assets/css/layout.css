@@ -187,11 +187,28 @@ a {
 
 nav a:hover{
 
-	color: #a62639;
+	/*color: #a62639;
 
 	padding-bottom: 10px;
 
 	border-bottom: 2px solid #2d898c;
+	
+	background-color: white;
+    color: #2d898c;
+	font-weight: bold;
+
+	border: 1px solid #2d898c;
+	padding: 12px;
+	border-radius: 10px;*/
+
+	
+	background-image: linear-gradient(to right, #f08729, #fed458);
+	color: white;
+	font-weight: solid;
+	
+	padding: 12px;
+	border-radius: 10px;
+	text-shadow: none;
 
 
 
@@ -200,6 +217,7 @@ nav a:hover{
 nav a{
 
 	color: #11114e;
+	text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
 
 
 }
@@ -210,7 +228,10 @@ nav a{
 
 	position: relative;
 	width: 100%;
-	height: 500px;
+	
+	height: 600px;
+	
+	margin: 0 auto;
 	
 	overflow: hidden;
 }
@@ -422,10 +443,12 @@ nav a{
 
 .missao{
 
-	background-image: url('/assets/img/bg/agrupaDivTexto.jpg');
+	background-image: url('/assets/img/bg/agrupaDivTexto2.jpg');
 	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;
+
+	
 }
 
 .missao h1{
@@ -439,6 +462,7 @@ nav a{
 .missao p{
 
 	color: #11114e;
+	text-shadow: -2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff, 2px 2px 0 #fff;
 	
 	width: 90vw;
 
@@ -447,7 +471,7 @@ nav a{
 .agrupaDivTexto{
 	
 
-	background-image: url('/assets/img/bg/agrupaDivTexto.jpg');
+	background-image: url('/assets/img/bg/agrupaDivTexto2.jpg');
 	background-size: contain;
 	background-position: center;
 	background-repeat: repeat;
@@ -457,7 +481,11 @@ nav a{
 	height: 250px;
 	display: flex;
 	justify-content: center;
+
+	
 }
+
+
 
 
 .divTexto{
@@ -485,6 +513,8 @@ nav a{
 	width: 70%;
 	font-weight: 500;
     font-style: italic;
+	
+  	text-shadow: -2px -2px 0 white, 2px -2px 0 white, -2px 2px 0 white, 2px 2px 0 white;
 
 }
 
@@ -1109,6 +1139,35 @@ footer p{
 		/* Ordem da visualização dos elementos. */
 		order: 3;
 	}
+
+	.agrupaDivTexto{
+
+		background-image: url('/assets/img/bg/noticias.jpg');
+
+		background-size: contain;
+		
+		background-repeat: repeat;
+
+		height: 500px;
+
+
+
+	}
+
+	.missao{
+
+		background-image: url('/assets/img/bg/noticias.jpg');
+
+		background-size: contain;
+		
+		background-repeat: repeat;
+
+		height: 500px;
+
+
+
+	}
+	
 }
 
 	

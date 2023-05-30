@@ -227,9 +227,10 @@ nav a{
 .slideshow {
 
 	position: relative;
-	width: 100%;
+	width: 1366px;
+	max-width: 1366px;
 	
-	height: 600px;
+	height: 550px;
 	
 	margin: 0 auto;
 	

@@ -359,6 +359,13 @@ nav a{
     text-align: center;
     width: 100%;    
     margin: 0 auto;
+
+	background-image: url('/assets/img/bg/noticias.jpg');
+	background-size: contain;
+	background-position: center;
+	background-repeat: repeat;
+
+
     
 
 
@@ -368,11 +375,24 @@ nav a{
 
 	width: 100%;
     height: 400px;
+	object-fit: center;
+
+}
+
+/*   imagem ao lado do texto */
+
+.container-quemsomos-img{
+
+	width: 100%; /* Defina a largura desejada do contêiner */
+	height: auto; /* Defina a altura desejada do contêiner */
+	overflow: hidden;
+}
+
+.container-quemsomos-img img{
+
+	width: 100%;
+	height: 100%;
 	object-fit: cover;
-
-
-
-
 
 }
 
@@ -546,9 +566,10 @@ nav a{
 }
 
 .container01{
-	background-color: #a62639;
+	
 
-    color: #fff;
+    color: #000000
+	
 	
 
 }
@@ -610,6 +631,7 @@ nav a{
 	padding-bottom: 15px;
 	width: 95%;
 	margin-top: 10px;
+	text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
 
 
 }
@@ -618,15 +640,12 @@ nav a{
 .container01 p{
 
 	width: 90%;
+	text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
 
 }
 
 
-.quemsomos{
 
-	background-color: #2d898c
-
-}
 
 .container-parceiro{
 

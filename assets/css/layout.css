@@ -137,6 +137,11 @@ main {
 	
 	margin: 0 auto;
 
+	background-image: url('/assets/img/bg/noticias.jpg');
+	background-size: contain;
+	background-position: center;
+	background-repeat: repeat;
+
 	
 
 	
@@ -258,10 +263,7 @@ nav a{
 	justify-content: space-between;
 	align-items: center;
 
-	background-image: url('/assets/img/bg/noticias.jpg');
-	background-size: contain;
-	background-position: center;
-	background-repeat: repeat;	
+		
 
 	
 
@@ -362,10 +364,7 @@ nav a{
     width: 100%;    
     margin: 0 auto;
 
-	background-image: url('/assets/img/bg/noticias.jpg');
-	background-size: contain;
-	background-position: center;
-	background-repeat: repeat;
+	
 
 
     
@@ -406,14 +405,7 @@ nav a{
     
 }
 
-.quemsomosimg{
 
-	background-image: url("./assets/img/principal/01.jpg");
-    background-position: center;
-    background-size: cover;
-
-
-}
 
 .vamosimboraimg{
 
@@ -464,15 +456,7 @@ nav a{
     
 }
 
-.missao{
 
-	background-image: url('/assets/img/bg/agrupaDivTexto2.jpg');
-	background-size: contain;
-	background-position: center;
-	background-repeat: no-repeat;
-
-	
-}
 
 .missao h1{
 	margin: 15px auto;
@@ -494,10 +478,7 @@ nav a{
 .agrupaDivTexto{
 	
 
-	background-image: url('/assets/img/bg/agrupaDivTexto2.jpg');
-	background-size: contain;
-	background-position: center;
-	background-repeat: repeat;
+	
 	
 
 
@@ -719,10 +700,6 @@ nav a{
 	align-items: center;
 	width: 100%;
 
-	background-image: url('/assets/img/bg/noticias.jpg');
-	background-size: contain;
-	background-position: center;
-	background-repeat: repeat;	
 	
 
 
@@ -831,6 +808,19 @@ nav a{
 
 footer p{
 	font-size: 15px;
+}
+
+
+
+.mainTransparencia{
+
+	background-image: url('/assets/img/bg/noticias.jpg');
+	background-size: contain;
+	background-position: center;
+	background-repeat: repeat;
+
+
+
 }
 
 
@@ -1162,7 +1152,7 @@ footer p{
 		order: 3;
 	}
 
-	.agrupaDivTexto{
+	/*.agrupaDivTexto{
 
 		background-image: url('/assets/img/bg/noticias.jpg');
 
@@ -1174,7 +1164,7 @@ footer p{
 
 
 
-	}
+	} 
 
 	.missao{
 
@@ -1188,7 +1178,7 @@ footer p{
 
 
 
-	}
+	}*/
 	
 }
 

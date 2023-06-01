@@ -278,6 +278,36 @@ nav a{
 
 }
 
+.container-noticias a{
+
+	    
+    text-align: center;
+    background-color: #f1892a;
+    color: white;
+    padding: 12px;
+	border-radius: 10px;
+	font-size: 18px;
+	font-weight: 200px;
+
+
+}
+
+.container-noticias a:hover{
+
+	background-color: white;
+    color: #f1892a;
+	font-weight: bold;
+
+	border: 1px solid #f1892a;
+
+}
+
+.todas-noticias{
+
+	font-weight: bold;
+
+}
+
 
 
 .card-container{
@@ -288,6 +318,8 @@ nav a{
 	justify-content: center;
 	
 }
+
+
 
 .card{
 	border: 1.5px solid #f1892a;
@@ -959,7 +991,7 @@ footer p{
 	.slideshow {
 
 		
-		height: 400px;
+		height: 35vh;
 		
 		
 	}

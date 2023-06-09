@@ -221,8 +221,11 @@ nav a:hover{
 
 nav a{
 
-	color: #11114e;
-	text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+	
+	background-color: white;
+    color: black;
+	border-radius: 2px;
+	
 
 
 }
@@ -232,9 +235,19 @@ nav a{
 .slideshow {
 
 	position: relative;
+
+	width: 95%;
+		
+	height: 75vh;
+
+	/*
+
 	width: 90%;
 		
 	height: 75vh;
+	
+	
+	*/
 	
 	margin: 0 auto;
 	
@@ -325,6 +338,7 @@ nav a{
 	border: 1.5px solid #f1892a;
 	border-radius: 10px;
 	margin: 15px;
+	background-color: #fff;
 
 	display: flex;
 	flex-direction: column;
@@ -478,7 +492,8 @@ nav a{
     justify-content: space-evenly;
 	align-content: center;
     align-items: center;
-    text-align: center; 
+    text-align: center;
+	 
     
 }
 
@@ -563,6 +578,9 @@ nav a{
 
 	line-height: 25px;
 
+	background-color: white;
+    color: black;
+
 
 }
 
@@ -640,7 +658,10 @@ nav a{
 	padding-bottom: 15px;
 	width: 95%;
 	margin-top: 10px;
-	text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+
+	background-color: white;
+    color: black;
+	font-weight: bold;
 
 
 }
@@ -649,7 +670,13 @@ nav a{
 .container01 p{
 
 	width: 90%;
-	text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+
+	background-color: white;
+    color: black;
+	font-weight: solid;
+	
+	
+	
 
 }
 
@@ -740,24 +767,23 @@ nav a{
 	border-bottom: 2px solid #11114e; /* largura e estilo da linha */
 	padding-bottom: 5px; /* espaço entre o texto e a linha */
 	
+	
 
 }
 
-.container-contatos div{
-	margin-top: 20px;
-	margin-bottom: 10px;
-
-}
 
 .container-contatos div{
 	text-align: center;
 	font-weight: bold;
 	line-height: 25px;
 	width: 80%;
-	
+	margin-top: 20px;
+	margin-bottom: 10px;
 
+}
 
-
+.container-contatos h1, p{
+	background-color: white;
 }
 
 .container-contatos a{
@@ -780,6 +806,8 @@ nav a{
 
 
 }
+
+
 
 
 .transparencia{
@@ -808,12 +836,16 @@ nav a{
 	margin: 20px auto;
 	border-bottom: 2px solid #11114e; /* largura e estilo da linha */
 	padding-bottom: 5px;
+	background-color: white;
     
 }
 
 .transparencia a{
 
 	margin-bottom: 20px;
+	background-color: white;
+	padding: 05px;
+	border-radius: 10px;
 
     
 }
@@ -822,6 +854,7 @@ nav a{
 
 footer p{
 	font-size: 15px;
+	background-color:#f1892a;;
 }
 
 

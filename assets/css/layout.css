@@ -850,6 +850,23 @@ nav a{
     
 }
 
+.transparencia h3{
+
+	margin: 20px auto;
+	 /* largura e estilo da linha */
+	padding-bottom: 5px;
+	background-color: white;
+	font-size: 25px;
+    
+}
+
+.transparencia{
+	margin-bottom: 20px;
+
+}
+
+
+
 
 
 footer p{

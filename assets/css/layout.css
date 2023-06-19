@@ -999,11 +999,6 @@ footer p{
 		
 		flex-direction: column;
 	}
-
-	
-	
-
-
 	
 	.container p, .divTexto p{
 
@@ -1119,6 +1114,24 @@ footer p{
 
 
 	}
+
+
+	.slick-prev,
+    .slick-next {
+      
+      top: 34%;
+      
+      width: 30px;
+      height: 30px;
+	}
+
+	.slider img{
+		width: 100%;
+		
+	}
+      
+
+
 
 	
 	

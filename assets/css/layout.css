@@ -320,7 +320,7 @@ nav a{
 
 .todas-noticias{
 
-	font-weight: bold;
+	font-weight: solid;
 
 }
 
@@ -630,6 +630,9 @@ nav a{
 
 	border-bottom: 2px solid #11114e; /* largura e estilo da linha */
 	padding-bottom: 5px;
+	background-color: #fff;
+	border-radius: 5px;
+	
 
 
 }

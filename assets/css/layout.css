@@ -352,6 +352,54 @@ nav a{
 
 }
 
+
+.missaoVisaoValores{
+
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+
+
+}
+
+.subMissaoVisaoValores{
+
+	margin: 15px;
+	flex: 1;
+
+	display: flex;
+	flex-direction: column;
+	flex-basis: 30%;
+	justify-content: space-between;
+	align-items: center;
+	text-align: center;
+	
+
+}
+
+.subMissaoVisaoValores h2{
+
+	font-size: 25px;
+	margin-bottom: 10px;
+	background-color: #fff;
+
+
+}
+
+.subMissaoVisaoValores p{
+
+	width: 100%;
+
+
+}
+
+
+
+
+
+
 .card img{
 
 	width: 100%;
@@ -503,10 +551,18 @@ nav a{
 
 
 .missao h1{
+	
+
+}
+
+.missao h2{
+
 	margin: 15px auto;
-	border-bottom: 2px solid #11114e; /* largura e estilo da linha */
-	padding-bottom: 5px;
+	
+	
 	color: #11114e;
+
+
 
 }
 
@@ -516,6 +572,19 @@ nav a{
 	text-shadow: -2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff, 2px 2px 0 #fff;
 	
 	width: 90vw;
+
+}
+
+.projetos{
+
+	margin: 0 auto;
+	border-bottom: 2px solid #11114e; /* largura e estilo da linha */
+	
+	color: #11114e;
+	text-align: center;
+	
+
+
 
 }
 

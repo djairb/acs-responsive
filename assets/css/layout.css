@@ -360,6 +360,8 @@ nav a{
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: center;
+	margin: 0 auto;
+	
 
 
 }
@@ -391,6 +393,7 @@ nav a{
 .subMissaoVisaoValores p{
 
 	width: 100%;
+	text-align: center;
 
 
 }
@@ -1201,6 +1204,20 @@ footer p{
 		width: 100%;
 		
 	}
+
+	.missaoVisaoValores{
+
+		
+		flex-direction: column;
+		width: 100%;
+		
+		
+		
+	
+	
+	}
+
+	
       
 
 

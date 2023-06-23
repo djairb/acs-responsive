@@ -337,7 +337,7 @@ nav a{
 
 
 
-.card{
+.card, .cardNoticias{
 	border: 1.5px solid #f1892a;
 	border-radius: 10px;
 	margin: 15px;
@@ -351,6 +351,14 @@ nav a{
 	text-align: center;
 
 }
+
+.cardNoticias{
+
+	flex-basis: 40%;
+
+
+}
+
 
 
 .missaoVisaoValores{
@@ -404,7 +412,7 @@ nav a{
 
 
 
-.card img{
+.card img, .cardNoticias img{
 
 	width: 100%;
 	height: 180px;
@@ -415,7 +423,7 @@ nav a{
 
 }
 
-.card div{
+.card div, .cardNoticias div{
 
 	padding: 15px;
 	flex-grow: 1;
@@ -423,7 +431,7 @@ nav a{
 
 }
 
-.card div p{
+.card div p, .cardNoticias div p{
 
 	margin-top: 10px;
 	text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
@@ -431,7 +439,7 @@ nav a{
 	
 }
 
-.card a{
+.card a, .cardNoticias a{
 
 	margin: 10px 0;
 
@@ -602,6 +610,7 @@ nav a{
 	height: 250px;
 	display: flex;
 	justify-content: center;
+	display: none;
 
 	
 }
@@ -966,6 +975,73 @@ footer p{
 
 }
 
+.mainNoticia{
+
+	width: 100%;
+    min-width: 320px;
+    max-width: 1220px;
+    margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+
+}
+
+.mainNoticia img{
+	max-width: 1200px;
+	width: 100%;
+	margin: 0 auto;
+
+
+}
+
+.mainNoticia h1{
+	margin: 10px auto;
+	text-align: center;
+	background-color: #fff;
+}
+
+.mainNoticia p{
+
+	font-size: 17px;
+    line-height: 20px;
+	text-align: justify;
+	background-color: #fff;
+	width: 95%;
+}
+
+.mainNoticia p a{
+	font-weight: bold;
+}
+
+
+.area {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.area-image {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 0 auto 40px auto;
+    overflow-x: scroll;
+}
+
+
+.area-image img {
+    width: 315px;
+    margin: 10px;
+}
+
+.image-sombra {
+    box-shadow: 10px 10px 10px #939393;
+}
+
+
 
 
 
@@ -1089,7 +1165,7 @@ footer p{
 		width: 80px;
 	}
 
-	.card{
+	.card, .cardNoticias{
 		flex-basis: 100%;
 	}
 

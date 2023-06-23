@@ -354,7 +354,7 @@ nav a{
 
 .cardNoticias{
 
-	flex-basis: 40%;
+	flex-basis: 70%;
 
 
 }
@@ -561,11 +561,6 @@ nav a{
 }
 
 
-
-.missao h1{
-	
-
-}
 
 .missao h2{
 
@@ -1016,6 +1011,34 @@ footer p{
 	font-weight: bold;
 }
 
+.maisFotos a{
+
+	text-align: center;
+	align-items: center;
+	width: 300px;
+	
+	font-weight: bold;
+	font-size: 18px;
+
+	background-color: white;
+	color: #f08729;
+	border-radius: 10px;
+	text-decoration: underline;
+	
+	
+	padding: 12px;
+	
+
+}
+
+.maisFotos{
+
+	margin-bottom: 12px;
+
+
+
+}
+
 
 .area {
     width: 100%;
@@ -1027,7 +1050,7 @@ footer p{
 .area-image {
     display: flex;
     flex-wrap: nowrap;
-    margin: 0 auto 40px auto;
+    margin: 0 auto 35px auto;
     overflow-x: scroll;
 }
 
@@ -1040,6 +1063,7 @@ footer p{
 .image-sombra {
     box-shadow: 10px 10px 10px #939393;
 }
+
 
 
 

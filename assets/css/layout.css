@@ -289,8 +289,8 @@ nav a{
 	color: #11114e;
 
 	margin-top: 15px;
-	border-bottom: 2px solid #a62639; /* largura e estilo da linha */
-	padding-bottom: 15px;
+	border-bottom: 2px solid #f1892a; /* largura e estilo da linha */
+	padding-bottom: 10px;
 
 }
 
@@ -417,6 +417,7 @@ nav a{
 	width: 100%;
 	height: 180px;
 	object-fit: cover;
+	object-position: top;
 	border-radius: 10px;
 	
 

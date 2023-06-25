@@ -1030,7 +1030,7 @@ footer p{
 
 	text-align: center;
 	align-items: center;
-	width: 300px;
+	width: 90%;
 	
 	font-weight: bold;
 	font-size: 18px;
@@ -1041,14 +1041,28 @@ footer p{
 	text-decoration: underline;
 	
 	
-	padding: 12px;
+	padding: 0px;
+	
 	
 
 }
 
 .maisFotos{
+	display: flex;
+	width: 100%;
+	justify-content: center;
 
 	margin-bottom: 12px;
+
+
+
+}
+
+.aGaleria a{
+
+	margin-top: 12px;
+	
+
 
 
 
@@ -1077,6 +1091,33 @@ footer p{
 
 .image-sombra {
     box-shadow: 10px 10px 10px #939393;
+}
+
+.containerGaleria{
+	display: flex;
+
+	flex-wrap: wrap;
+
+	width: 100%;
+    max-width: 1024px;
+}
+
+.imagemGaleria{
+
+	flex-basis: calc(100% / 3); /* Define a largura de cada imagem */
+	box-sizing: border-box; /* Considera a largura total com padding e borda */
+	padding: 4px;
+
+
+
+}
+
+.imageGaleria img{
+
+	width: 100%; /* Ajusta a imagem para preencher a largura do contêiner */
+	height: auto;
+
+
 }
 
 
@@ -1340,6 +1381,7 @@ footer p{
 		
 	}
 
+	
 	
       
 

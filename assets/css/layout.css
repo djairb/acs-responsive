@@ -1142,6 +1142,7 @@ footer p{
 .mainNoticiaProjeto h1{
 	background-color: white;
 	margin: 20px auto;
+	text-align: center;
 
 
 }
@@ -1150,11 +1151,11 @@ footer p{
  
 
 
- .mainNoticiaProjeto a{
+.mainNoticiaProjeto a{
 
 	margin: 10px 0;
 
-	width: 150px;    
+	font-weight: bold;
     text-align: center;
     background-color: #f1892a;
     color: white;
@@ -1272,7 +1273,7 @@ footer p{
 	}
 
 	.logo img{
-		width: 50px;
+		width: 63px;
 		
 	}
 

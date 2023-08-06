@@ -57,7 +57,7 @@ $('.slider').slick({
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 8000,
+    autoplaySpeed: 3800,
 	prevArrow: $('.slick-prev'), 
     nextArrow: $('.slick-next')
 	
@@ -71,13 +71,11 @@ function zoomIn(img) {
 	img.style.transform = "scale(1.2)";
 	img.style.transformOrigin = "0 0";
 	img.style.transition = "transform 0.3s";
-}
+};
 
 function zoomOut(img) {
 	img.style.transform = "scale(1)";
 	img.style.transformOrigin = "0 0";
 	img.style.transition = "transform 0.5s";
-}
-  
-  
+};
 

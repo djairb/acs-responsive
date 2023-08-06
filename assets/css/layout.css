@@ -299,7 +299,7 @@ nav a{
 
 }
 
-.container-noticias a{
+.container-noticias a, .container01 a{
 
 	    
     text-align: center;
@@ -313,7 +313,7 @@ nav a{
 
 }
 
-.container-noticias a:hover{
+.container-noticias a:hover, .container01 a:hover{
 
 	background-color: white;
     color: #f1892a;
@@ -326,6 +326,15 @@ nav a{
 .todas-noticias{
 
 	font-weight: solid;
+
+}
+
+.container01 a{
+
+	margin-top: 10px;
+	font-size: medium;
+
+
 
 }
 

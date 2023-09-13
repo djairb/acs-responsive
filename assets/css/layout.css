@@ -807,7 +807,9 @@ nav a{
 
 
 }
-.container-parceiro div{
+.container-parceiro h2{
+
+	margin: 10px 0;
 
 	
 }
@@ -1150,9 +1152,6 @@ footer p{
 
 }
 
-
-
- 
 
 
 .mainNoticiaProjeto a{

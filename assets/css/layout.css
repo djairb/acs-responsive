@@ -230,6 +230,53 @@ nav a{
 
 }
 
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Botão do dropdown */
+.dropbtn {
+    background-color: transparent;
+    color: #000; /* Cor do texto */
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+}
+
+/* Conteúdo do dropdown (oculto por padrão) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff; /* Cor de fundo do dropdown */
+    min-width: 160px;
+    z-index: 1;
+}
+
+/* Links do dropdown */
+.dropdown-content a {
+    color: #000; /* Cor do texto dos links */
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Mudar a cor do link ao passar o mouse sobre ele */
+.dropdown-content a:hover {
+    background-color: #f1f1f1; /* Cor de destaque ao passar o mouse */
+}
+
+/* Mostrar o dropdown quando o botão do dropdown for hoverizado */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
+
+
 
 .slider{
 	width: 100%;
@@ -1582,6 +1629,29 @@ footer p{
 
 
 	}*/
+
+	.dropdown {
+        display: block; /* Mostrar o dropdown como um bloco em telas menores */
+    }
+
+    .dropdown-content {
+        position: static; /* Remover posição absoluta para o dropdown ser exibido na ordem normal */
+        display: none; /* Ocultar dropdown por padrão */
+        background-color: transparent; /* Fundo transparente para o menu responsivo */
+        box-shadow: none; /* Remover sombra */
+        border: none; /* Remover borda */
+    }
+
+    .dropdown.active .dropdown-content {
+        display: block; /* Mostrar dropdown quando a classe "active" é aplicada ao elemento */
+    }
+
+
+
+
+
+
+
 	
 }
 

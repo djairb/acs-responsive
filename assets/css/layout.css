@@ -232,6 +232,7 @@ nav a:hover{
 .dropdown {
     position: relative;
     display: inline-block;
+	
 }
 
 /* Botão do dropdown */
@@ -249,9 +250,19 @@ nav a:hover{
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #fff; /* Cor de fundo do dropdown */
+    background-color: transparent; /* Cor de fundo do dropdown */
     min-width: 160px;
     z-index: 1;
+	border-radius: 50px;
+	margin: 0 auto;
+	
+	
+}
+
+.dropdown-content a{
+
+	font-size: 14px;
+	
 }
 
 /* Ativar dropdown no hover */
@@ -1274,7 +1285,7 @@ footer p{
 		height: 100vh;
 
 		/* Cor em RGB, mais transparência. */
-		background: rgba(255, 255, 255, 0.8);
+		background: rgba(255, 255, 255, 0.856);
 
 		/* Dispõe os itens em coluna. */
 		flex-direction: column;
@@ -1300,6 +1311,16 @@ footer p{
 		z-index: 1;
 	}
 
+	.dropdown {
+		margin: 3% 0;
+		background-color: transparent;
+		
+	}
+
+	.dropdown-content{
+		background-color: white;
+		border-radius: 2px;
+	}
 	nav a {
 		/* Margem de todos os lados. */
 		margin: 3%;
@@ -1401,9 +1422,6 @@ footer p{
 	.divTexto img{
 		width: 180px;
 		height: 180px;
-
-		
-			 
 		
 	}
 
@@ -1455,11 +1473,12 @@ footer p{
 
 	.slick-prev,
     .slick-next {
+
       
-      top: 34%;
-      
-      width: 30px;
-      height: 30px;
+		top: 34%;
+
+		width: 30px;
+		height: 30px;
 	}
 
 	.slider img{
@@ -1554,7 +1573,7 @@ footer p{
 		height: 100vh;
 
 		/* Cor em RGB, mais transparência. */
-		background: rgba(255, 255, 255, 0.8);
+		background: rgba(255, 255, 255, 0.856);
 
 		/* Dispõe os itens em coluna. */
 		flex-direction: column;
@@ -1580,9 +1599,22 @@ footer p{
 		z-index: 1;
 	}
 
+	.dropdown {
+		margin: 3% 0;
+		background-color: transparent;
+		
+	}
+
+	.dropdown-content{
+		background-color: white;
+		border-radius: 2px;
+	}
+	
+
 	nav a {
 		/* Margem de todos os lados. */
 		margin: 3%;
+		background-color: transparent;
 	}
 
 	main {

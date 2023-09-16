@@ -79,12 +79,5 @@ function zoomOut(img) {
 	img.style.transition = "transform 0.5s";
 };
 
-document.querySelector(".dropbtn").addEventListener("click", function() {
-    var dropdownContent = this.nextElementSibling;
-    if (dropdownContent.style.display === "block") {
-        dropdownContent.style.display = "none";
-    } else {
-        dropdownContent.style.display = "block";
-    }
-});
+
 

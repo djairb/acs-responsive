@@ -80,4 +80,3 @@ function zoomOut(img) {
 };
 
 
-

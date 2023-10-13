@@ -300,7 +300,7 @@ nav a:hover{
 }
 
 .sliderMain{
-	background-color: #c52727;
+	background-color: white;
 	position: relative;
 	max-width: 1200px;
 	width: 100%;
@@ -1505,10 +1505,24 @@ footer p{
     .slick-next {
 
       
-		top: 34%;
+		
 
 		width: 30px;
 		height: 30px;
+	}
+
+	.slick-next{
+
+		right: 2dvb;
+
+
+	}
+
+	.slick-prev{
+
+		left: 2px;
+
+
 	}
 
 	.slider img{

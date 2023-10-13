@@ -299,11 +299,19 @@ nav a:hover{
 	
 }
 
+.sliderMain{
+	background-color: #c52727;
+	position: relative;
+	max-width: 1200px;
+	width: 100%;
+	margin: 0 auto;
+}
+
 .slick-prev,
     .slick-next {
 
 		position: absolute;
-		top: 40%;
+		top: 50%;
 		transform: translateY(-50%);
 		width: 40px;
 		height: 40px;
@@ -317,12 +325,12 @@ nav a:hover{
 }
 
 .slick-prev {
-	left: 10px;
+	left: -20px;
 	background-image: url(/assets/img/arrow/prev.png);
 }
 
 .slick-next {
-	right: 10px;
+	right: -20px;
 	background-image: url(/assets/img/arrow/next.png);
 }
 

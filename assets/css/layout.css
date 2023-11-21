@@ -1188,29 +1188,30 @@ footer p{
 
 
 
-.galeriaTexto{
 
-	text-align: center;
-	align-items: center;
-	width: 90%;
-	
-	font-weight: bold;
-	font-size: 18px;
+.galeriaTexto {
+
+
+	margin: 15px 0;
+	font-weight: normal;
+    text-align: center;
+    background-color: #f1892a;
+    color: white;
+    padding: 12px;
+	border-radius: 10px;
+}
+
+a.proximo{
+	font-weight: bolder;
+}
+
+.galeriaTexto:hover{
 
 	background-color: white;
-	color: #f08729;
-	border-radius: 10px;
-	text-decoration: underline;
+    color: #f1892a;
+	font-weight: bold;
 
-	margin-top: 12px;
-
-	margin-bottom: 12px;
-	
-	
-	padding: 0px;
-
-
-
+	border: 1px solid #f1892a;
 
 }
 
@@ -1243,16 +1244,18 @@ footer p{
 
 .containerGaleria{
 	display: flex;
+	justify-content: center;
 
 	flex-wrap: wrap;
 
 	width: 100%;
     max-width: 1024px;
+	
 }
 
 .imagemGaleria{
 
-	flex-basis: calc(100% / 3); /* Define a largura de cada imagem */
+	flex-basis: calc(100% / 4); /* Define a largura de cada imagem */
 	box-sizing: border-box; /* Considera a largura total com padding e borda */
 	padding: 4px;
 
@@ -1612,6 +1615,8 @@ footer p{
 
 		
 		padding: 2px;
+		flex-basis: calc(100% / 2);
+		
 	
 	
 	
